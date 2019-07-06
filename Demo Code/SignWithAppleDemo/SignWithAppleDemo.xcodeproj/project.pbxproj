@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70CDA70022D0CDCC008EAB0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CDA6FF22D0CDCC008EAB0B /* AppDelegate.m */; };
+		70CDA70322D0CDCC008EAB0B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CDA70222D0CDCC008EAB0B /* SceneDelegate.m */; };
+		70CDA70622D0CDCC008EAB0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CDA70522D0CDCC008EAB0B /* ViewController.m */; };
+		70CDA70922D0CDCC008EAB0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CDA70722D0CDCC008EAB0B /* Main.storyboard */; };
+		70CDA70B22D0CDCD008EAB0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70CDA70A22D0CDCD008EAB0B /* Assets.xcassets */; };
+		70CDA70E22D0CDCD008EAB0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CDA70C22D0CDCD008EAB0B /* LaunchScreen.storyboard */; };
+		70CDA71122D0CDCD008EAB0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CDA71022D0CDCD008EAB0B /* main.m */; };
+		70CDA71A22D0CF07008EAB0B /* NTESNBAppleSignManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CDA71822D0CF07008EAB0B /* NTESNBAppleSignManager.m */; };
+		70CDA71D22D0CF4A008EAB0B /* NTESNBAppleIDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CDA71B22D0CF49008EAB0B /* NTESNBAppleIDUser.m */; };
+		BD3B7DCBF50616BD4CF094A3 /* libPods-SignWithAppleDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AE3736E19B5DD79090465E /* libPods-SignWithAppleDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3491CB76780D9E0586C16AF1 /* Pods-SignWithAppleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignWithAppleDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SignWithAppleDemo/Pods-SignWithAppleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3AF6E316C779D749EE2E36D8 /* Pods-SignWithAppleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignWithAppleDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SignWithAppleDemo/Pods-SignWithAppleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		70CDA6FB22D0CDCC008EAB0B /* SignWithAppleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignWithAppleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CDA6FE22D0CDCC008EAB0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70CDA6FF22D0CDCC008EAB0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70CDA70122D0CDCC008EAB0B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		70CDA70222D0CDCC008EAB0B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		70CDA70422D0CDCC008EAB0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70CDA70522D0CDCC008EAB0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70CDA70822D0CDCC008EAB0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70CDA70A22D0CDCD008EAB0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70CDA70D22D0CDCD008EAB0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70CDA70F22D0CDCD008EAB0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70CDA71022D0CDCD008EAB0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70CDA71722D0CDDA008EAB0B /* SignWithAppleDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SignWithAppleDemo.entitlements; sourceTree = "<group>"; };
+		70CDA71822D0CF07008EAB0B /* NTESNBAppleSignManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESNBAppleSignManager.m; sourceTree = "<group>"; };
+		70CDA71922D0CF07008EAB0B /* NTESNBAppleSignManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESNBAppleSignManager.h; sourceTree = "<group>"; };
+		70CDA71B22D0CF49008EAB0B /* NTESNBAppleIDUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESNBAppleIDUser.m; sourceTree = "<group>"; };
+		70CDA71C22D0CF49008EAB0B /* NTESNBAppleIDUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESNBAppleIDUser.h; sourceTree = "<group>"; };
+		C3AE3736E19B5DD79090465E /* libPods-SignWithAppleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SignWithAppleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70CDA6F822D0CDCC008EAB0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3B7DCBF50616BD4CF094A3 /* libPods-SignWithAppleDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A91ADDA3FD8914635707335 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3AE3736E19B5DD79090465E /* libPods-SignWithAppleDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70CDA6F222D0CDCC008EAB0B = {
+			isa = PBXGroup;
+			children = (
+				70CDA6FD22D0CDCC008EAB0B /* SignWithAppleDemo */,
+				70CDA6FC22D0CDCC008EAB0B /* Products */,
+				CFC7634A77853CDC71F871DF /* Pods */,
+				2A91ADDA3FD8914635707335 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70CDA6FC22D0CDCC008EAB0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70CDA6FB22D0CDCC008EAB0B /* SignWithAppleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70CDA6FD22D0CDCC008EAB0B /* SignWithAppleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				70CDA71722D0CDDA008EAB0B /* SignWithAppleDemo.entitlements */,
+				70CDA6FE22D0CDCC008EAB0B /* AppDelegate.h */,
+				70CDA6FF22D0CDCC008EAB0B /* AppDelegate.m */,
+				70CDA70122D0CDCC008EAB0B /* SceneDelegate.h */,
+				70CDA70222D0CDCC008EAB0B /* SceneDelegate.m */,
+				70CDA71922D0CF07008EAB0B /* NTESNBAppleSignManager.h */,
+				70CDA71822D0CF07008EAB0B /* NTESNBAppleSignManager.m */,
+				70CDA71C22D0CF49008EAB0B /* NTESNBAppleIDUser.h */,
+				70CDA71B22D0CF49008EAB0B /* NTESNBAppleIDUser.m */,
+				70CDA70422D0CDCC008EAB0B /* ViewController.h */,
+				70CDA70522D0CDCC008EAB0B /* ViewController.m */,
+				70CDA70722D0CDCC008EAB0B /* Main.storyboard */,
+				70CDA70A22D0CDCD008EAB0B /* Assets.xcassets */,
+				70CDA70C22D0CDCD008EAB0B /* LaunchScreen.storyboard */,
+				70CDA70F22D0CDCD008EAB0B /* Info.plist */,
+				70CDA71022D0CDCD008EAB0B /* main.m */,
+			);
+			path = SignWithAppleDemo;
+			sourceTree = "<group>";
+		};
+		CFC7634A77853CDC71F871DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AF6E316C779D749EE2E36D8 /* Pods-SignWithAppleDemo.debug.xcconfig */,
+				3491CB76780D9E0586C16AF1 /* Pods-SignWithAppleDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70CDA6FA22D0CDCC008EAB0B /* SignWithAppleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70CDA71422D0CDCD008EAB0B /* Build configuration list for PBXNativeTarget "SignWithAppleDemo" */;
+			buildPhases = (
+				5D1D3417A94583CAE576E586 /* [CP] Check Pods Manifest.lock */,
+				70CDA6F722D0CDCC008EAB0B /* Sources */,
+				70CDA6F822D0CDCC008EAB0B /* Frameworks */,
+				70CDA6F922D0CDCC008EAB0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignWithAppleDemo;
+			productName = SignWithAppleDemo;
+			productReference = 70CDA6FB22D0CDCC008EAB0B /* SignWithAppleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70CDA6F322D0CDCC008EAB0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = JerryLiu;
+				TargetAttributes = {
+					70CDA6FA22D0CDCC008EAB0B = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 70CDA6F622D0CDCC008EAB0B /* Build configuration list for PBXProject "SignWithAppleDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70CDA6F222D0CDCC008EAB0B;
+			productRefGroup = 70CDA6FC22D0CDCC008EAB0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70CDA6FA22D0CDCC008EAB0B /* SignWithAppleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70CDA6F922D0CDCC008EAB0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CDA70E22D0CDCD008EAB0B /* LaunchScreen.storyboard in Resources */,
+				70CDA70B22D0CDCD008EAB0B /* Assets.xcassets in Resources */,
+				70CDA70922D0CDCC008EAB0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D1D3417A94583CAE576E586 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignWithAppleDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70CDA6F722D0CDCC008EAB0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CDA70622D0CDCC008EAB0B /* ViewController.m in Sources */,
+				70CDA70022D0CDCC008EAB0B /* AppDelegate.m in Sources */,
+				70CDA71D22D0CF4A008EAB0B /* NTESNBAppleIDUser.m in Sources */,
+				70CDA71A22D0CF07008EAB0B /* NTESNBAppleSignManager.m in Sources */,
+				70CDA71122D0CDCD008EAB0B /* main.m in Sources */,
+				70CDA70322D0CDCC008EAB0B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		70CDA70722D0CDCC008EAB0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70CDA70822D0CDCC008EAB0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70CDA70C22D0CDCD008EAB0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70CDA70D22D0CDCD008EAB0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70CDA71222D0CDCD008EAB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70CDA71322D0CDCD008EAB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70CDA71522D0CDCD008EAB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AF6E316C779D749EE2E36D8 /* Pods-SignWithAppleDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SignWithAppleDemo/SignWithAppleDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52CM5QMX26;
+				INFOPLIST_FILE = SignWithAppleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sse.ustc.SignWithAppleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70CDA71622D0CDCD008EAB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3491CB76780D9E0586C16AF1 /* Pods-SignWithAppleDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SignWithAppleDemo/SignWithAppleDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52CM5QMX26;
+				INFOPLIST_FILE = SignWithAppleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sse.ustc.SignWithAppleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70CDA6F622D0CDCC008EAB0B /* Build configuration list for PBXProject "SignWithAppleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CDA71222D0CDCD008EAB0B /* Debug */,
+				70CDA71322D0CDCD008EAB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70CDA71422D0CDCD008EAB0B /* Build configuration list for PBXNativeTarget "SignWithAppleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CDA71522D0CDCD008EAB0B /* Debug */,
+				70CDA71622D0CDCD008EAB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70CDA6F322D0CDCC008EAB0B /* Project object */;
+}
